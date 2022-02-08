@@ -2,7 +2,14 @@ const express = require('express');
 const path = require('path');
 const app = express();
 
-app.listen(3030, () => console.log('Servidor levantado'))
+const PORT = 3030;
+
+
+app.use(express.static(path.join(__dirname, '/DH-Heroes/public')))
+
+
+
+// routing
 
 app.get('/', (req, res ) => {
     let home = path.join(__dirname, '/DH-Heroes/views/index.html');
@@ -47,4 +54,9 @@ app.get('/turing', (req, res) => {
 
 })
 
-app.use(express.static( 'public'))
+
+
+
+app.listen(PORT, () => console.log(`Servidor levantado en el puerto ${PORT}`))
+
+
