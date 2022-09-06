@@ -1,0 +1,27 @@
+.rojo {
+    background-color: rgb(255, 174, 127);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+    text-decoration: underline;
+    
+}
+
+.articulo { 
+    background-color: aquamarine;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+    
+    
+}
+
+p {
+    opacity: 0.5;
+    background-color: brown;
+}
+
+.fondo{
+    background-color: blue;
+    background-image: url('https://images3.alphacoders.com/621/621682.jpg')
+}
